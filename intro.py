@@ -28,19 +28,19 @@ if __name__ == '__main__':
     main()
 
 
-st.markdown("<h1 style='text-align: center;'><a href='/Equipo' style='color: white;'>NOSOTROS</h1></a></h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center;'><a href='/Equipo' style='color: white;'>EQUIPO</h1></a></h1>", unsafe_allow_html=True)
 st.image("./img/gitHub.png")
 
 
-st.markdown('_realizado por alumnos para el bootcamp de SoyHenry_') # see *
 st.image("./img/Copy of HENRY - Fondo virtual 2.png")
+st.markdown('_realizado por alumnos para el bootcamp de SoyHenry_') # see *
 
 st.markdown('***')
+
 st.caption('Disclaimer: Este material se proporciona únicamente con fines educativos. No se pretende ni se debe interpretar como asesoramiento legal, financiero o profesional de ningún tipo. La información contenida en este material es precisa y completa en la medida de nuestro conocimiento, pero no garantizamos su exactitud, integridad o actualidad.')
 
 st.markdown('***')
 
 st.write("GitHub [link](https://github.com/BenJokek/Final-Project-Data-Science)")
-st.write("PowerBi [link](https://github.com/BenJokek/Final-Project-Data-Science)")
 
 
