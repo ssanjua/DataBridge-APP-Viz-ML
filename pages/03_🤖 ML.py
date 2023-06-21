@@ -51,7 +51,7 @@ centers = joblib.load('./data/cluster_centers.pkl')
 top_clusters = pd.read_csv('./data/top_clusters.csv')
 
 def Calcular_Cluster(city):
-        location = geolocator.geocode(city)
+        location = geolocator.geocode(city, timeout=None)
 
         distances = np.linalg.norm(centers[:, :2] - np.array([location.latitude, location.longitude]), axis=1)
         # Obtener el índice del clúster más cercano
